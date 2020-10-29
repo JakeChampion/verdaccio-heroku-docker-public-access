@@ -20,3 +20,9 @@ middlewares:
   github-oauth-ui:
     client-id: GITHUB_OAUTH_CLIENT_ID
     client-secret: GITHUB_OAUTH_CLIENT_SECRET
+store:
+  aws-s3-storage:
+    bucket: AWS_S3_BUCKET_NAME
+    region: AWS_REGION
+    accessKeyId: AWS_ACCESS_KEY_ID
+    secretAccessKey: AWS_SECRET_ACCESS_KEY

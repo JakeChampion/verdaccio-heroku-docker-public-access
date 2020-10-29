@@ -5,7 +5,7 @@ A containerized verdaccio public access npm registry configured with github oaut
 This is a fork of [autotelic/verdaccio-heroku-docker](https://github.com/autotelic/verdaccio-heroku-docker) that
 sets the default access level to `$all` instead of `$authenticated`.
 
-This will show all packages to anybody.  
+This will show all packages to anybody.
 
 ## Deployment
 
@@ -26,6 +26,10 @@ or with the [cli](https://devcenter.heroku.com/articles/config-vars#using-the-he
 GITHUB_OAUTH_ORG
 GITHUB_OAUTH_CLIENT_ID
 GITHUB_OAUTH_CLIENT_SECRET
+AWS_S3_BUCKET_NAME
+AWS_REGION
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
 ```
 
 You should now be able to visit the heroku app and login with your github account by clicking the
